@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(5s)nts8a18g+x$j*if0f$($($%w76zyjeddpy4xu=dzo%_z$9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['heinzRestAPI.pythonanywhere.com', 'localhost']
+ALLOWED_HOSTS = ['heinzRestAPI.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
