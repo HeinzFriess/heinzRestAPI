@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['heinzRestAPI.pythonanywhere.com', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'todo',
-    'rest_framework',
 ]
 
 MIDDLEWARE = [

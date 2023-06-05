@@ -1,7 +1,6 @@
 from .models import todo
 from django.shortcuts import render
-from rest_framework import viewsets
-from rest_framework import permissions
+from rest_framework import viewsets,permissions
 
 from todo.serializers import TodoSerializer
 
