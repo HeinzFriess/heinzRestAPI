@@ -13,3 +13,8 @@ class todo(models.Model):
         User,
         on_delete=models.CASCADE,
     )
+
+    def time_passed(self):
+        return 1
+    def user_name(self):
+        return self.user.username
