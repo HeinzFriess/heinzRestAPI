@@ -15,6 +15,8 @@ class todo(models.Model):
     )
 
     def time_passed(self):
-        return 1
+        today = datetime.date.today()
+        delta = today- self.created_at
+        return str(delta.days) + ' days'
     def user_name(self):
         return self.user.username
